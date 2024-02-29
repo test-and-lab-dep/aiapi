@@ -21,7 +21,7 @@ jobs:
 
     - name: Log in to Docker Hub (optional)
       if: success()
-      run: docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_PASSWORD }}
+      run: docker login -u ${{ secrets.DOCKERHUB_USERNAME2 }} -p ${{ secrets.DOCKERHUB_PASSWORD2 }}
 
     - name: Push Docker image to Docker Hub (optional)
       if: success()
