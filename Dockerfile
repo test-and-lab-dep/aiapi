@@ -13,7 +13,7 @@ RUN yum install -yq python3 python3-pip
 #
 RUN pip install -U keras
 RUN pip install -U magika
-RUN pip install -U grpcio==1.48.2
+RUN pip install -U grpcio
 RUN pip install -U tensorboard
 RUN pip install -U tensorflow
 RUN pip install -U tornado
