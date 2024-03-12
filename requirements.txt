@@ -4,3 +4,4 @@ tornado
 transformers
 tensorflow_hub
 tensorflow_text
+h5py
