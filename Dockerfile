@@ -9,6 +9,7 @@ USER root
 #
 ENV TZ="Europe/Oslo"
 #
+RUN mkdir /opt/app
 COPY requirements.txt /opt/app/requirements.txt
 WORKDIR /opt/app
 #
