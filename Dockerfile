@@ -13,4 +13,4 @@ WORKDIR /opt/app
 RUN yum update -y && yum install -yq tzdata && ln -fs /usr/share/zoneinfo/Europe/Oslo /etc/localtime
 RUN yum install -yq python3 python3-pip
 #
-RUN pip install -r requirements.txt
+RUN pip install -Ur requirements.txt
