@@ -3,4 +3,6 @@ tensorflow
 tornado
 transformers
 tensorflow-hub
+tensorflow_hub
 tensorflow-text
+tensorflow_text
