@@ -2,5 +2,5 @@ keras
 tensorflow
 tornado
 transformers
-tensorflow_hub
-
+tensorflow-hub
+tensorflow-text
