@@ -70,7 +70,7 @@ pyarrow==14.0.2
 pyarrow-hotfix==0.6
 pyasn1==0.5.1
 pyasn1-modules==0.3.0
-pycurl==7.45.1
+pycurl
 pydot==2.0.0
 pyparsing==3.1.1
 pyzmq==24.0.1
