@@ -18,7 +18,7 @@ jobs:
       uses: docker/setup-buildx-action@v1
 
     - name: Build Docker image
-      run: docker build -t nilsbolle/aiapi:special .
+      run: docker build -t nilsbolle/aiapi:latest .
 
     - name: Log in to Docker Hub (optional)
       if: success()
@@ -26,4 +26,4 @@ jobs:
 
     - name: Push Docker image to Docker Hub (optional)
       if: success()
-      run: docker push nilsbolle/aiapi:special
+      run: docker push nilsbolle/aiapi:latest
